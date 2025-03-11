@@ -1,7 +1,7 @@
 import base64
 
 
-base64_string ="VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg=="
+base64_string ="How are you ?"
 
 base64_bytes = base64_string.encode("ascii")
 
