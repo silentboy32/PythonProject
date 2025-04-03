@@ -8,7 +8,7 @@ ALARM_SOUND = "fire_alarm.mp3"
 
 def detect_fire():
     # Open the webcam (use video file path for pre-recorded video)
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     fire_detected = False
 

@@ -6,9 +6,9 @@ delay = int(input("Enter Time Delay "))
 
 time.sleep(5)
 
-for i in range(10):
+for i in range(300):
     time.sleep(delay)
-    do.write(str(i).zfill(4))
+    do.write(str(i).zfill(6))
     do.press("Enter")
 
 
