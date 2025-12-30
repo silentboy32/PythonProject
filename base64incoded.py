@@ -1,7 +1,7 @@
 import base64
 
 
-base64_string ="How are you ?"
+base64_string = input()
 
 base64_bytes = base64_string.encode("ascii")
 
